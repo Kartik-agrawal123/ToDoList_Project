@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Quantico&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center">ToDo's List</h2>
+        <hr style="border: 1px solid black; margin: 15px auto;">
+        <div class="form-group">
+      
+                <label for="title">Title</label><br>
+                <input type="text" id="title">
+                <p>Add an item to the list.</p>
+                <label for="description">Description</label><br>
+                <textarea name="descn" id="description"></textarea>
+                <br><br>
+                <button class="btn1" id="add">Add to List</button>
+                <button class="btn3" id="clear" onclick="clearStorage()">Clear List</button>
+        </div>
+        
+        <div id="items">
+            <h2>Your Items</h2>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Sno.</th>
+                  <th>Item Name</th>
+                  <th>Item Description</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="tablebody">
+                <tr>
+                  <th>1</th>
+                  <td>Do Coding</td>
+                  <td>Do coding about DSA on leetcode</td>
+                  <td>
+                  <button class="btn2">Delete</button></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="foot">
+      <p>copyright & made by Kartik Agrawal</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

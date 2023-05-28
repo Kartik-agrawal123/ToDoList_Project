@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.text-center {
+    margin: 10px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.form-group {
+    width: 800px;
+    /* height: 400px; */
+    /* background-color: red; */
+}
+
+.form-group label {
+    text-align: center;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+.form-group input {
+    width: 80%;
+    height: 30px;
+    /* text-align: center; */
+    margin-left: 400px;
+    padding: 20px;
+}
+
+.form-group textarea {
+    width: 80%;
+    height: 100px;
+    /* text-align: center; */
+    margin-left: 400px;
+    padding: 20px;
+}
+
+.form-group p {
+    font-size: 0.8rem;
+    margin-left: 400px;
+    padding: 5px;
+}
+#items h2{
+    /* text-align: center; */
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn1 {
+    margin-left: 400px;
+    width: 100px;
+    height: 30px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn3{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+table {
+    margin-left: 400px;
+    width: 600px;
+    text-align: center;
+    height: 80px;
+}
+.btn2{
+    width: 60px;
+    height: 30px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+.foot p{
+    margin-top: 180px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
